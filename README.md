@@ -1,7 +1,15 @@
 # Easy Installation System - written in Win32 assembly
 
+An easy to use and highly customizable but compact installation library (formerly knwon as warez installer) which extracts files from an attached .rar archive an uses an customizable installation script to properly configure the installation.
 
-# Implemented Features
+![Image1](eis_screen1.jpg)
+![Image2](eis_screen2.jpg)
+![Image3a](eis_screen3a.jpg)
+![Image3b](eis_screen3b.jpg)
+![Image4](eis_screen4.jpg)
+![Image5](eis_screen5.jpg)
+
+## Implemented Features
 
 + Support for all 32-bit Windows versions in use today - Windows 95, 98, 2000, XP, Me, NT 4.0. - there is no need for additional runtime libraries.
 + Supports creation of a single EXE to install your program for easy online distribution. Disk spanning is also supported.
