@@ -1,0 +1,32 @@
+/* =*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+  Author: Florian Muecke
+  Copyright: Florian Muecke, 2005
+  Description: EIS resource file
+ =*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*= */
+
+#define SIDEBYSIDE_COMMONCONTROLS 1
+#define CREATEPROCESS_MANIFEST_RESOURCE_ID 1
+#define CONTROL_PANEL_RESOURCE_ID 123
+#define RT_MANIFEST 24
+
+#define _WIN32_IE 0x0501
+
+603     RCDATA  DISCARDABLE "Res\license.txt"
+
+602     RCDATA  DISCARDABLE Res\eis.ini
+601     RCDATA  DISCARDABLE Res\unrar.dll
+103     IMAGE   DISCARDABLE Res\logo_big.jpg
+104     ICON    DISCARDABLE Res\setup.ico
+111     BITMAP  DISCARDABLE Res\watermark.bmp
+112     BITMAP  DISCARDABLE Res\header.bmp
+
+
+#include "Res/eisLng.rc"
+#include <res\NfoDlg.rc>
+#include <res\ConsoleDlg.rc>
+#include <res\ExtractDlg.rc>
+#include <Res\WelcomeDlg.rc>
+#include <Res\SettingsDlg.rc>
+#include <Res\browseDlg.rc>
+
+CREATEPROCESS_MANIFEST_RESOURCE_ID RT_MANIFEST "res\manifest"

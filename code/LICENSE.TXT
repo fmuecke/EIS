@@ -1,0 +1,32 @@
+#####################
+#                   #
+#  EIS SOURCE CODE  #
+#                   #  
+#####################
+
+License agreement
+=================
+The souce code comes free and with absolutely no warranty. You may use it or
+just parts of it for your own projects only if you agree to the following:
+
+1. You refer to me as original code source owner (a thanks in the copyright 
+   notes would be fine).
+
+2. You are allowed to modify as you keep the proper copyright notes.
+
+3. If you find any errors in the original code you have to report them to
+   dev@mueckeimnetz.de.
+   
+4. If you did improvements to the code report them to dev@mueckeimnetz.de.
+
+5. If you can contribute anything (code, tools, graphics, ideas, ...) to EIS 
+   feel free to contact.
+
+6. You are not allowed to distribute the EIS source code by yourself.
+
+7. If you think EIS is useful or you did use a piece of code in your own program
+   I would really like to hear about that.
+   
+   
+Florian Muecke
+April, 5th of 2006

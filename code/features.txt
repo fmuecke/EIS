@@ -1,8 +1,3 @@
-# Easy Installation System - written in Win32 assembly
-
-
-# Implemented Features
-
 + Support for all 32-bit Windows versions in use today - Windows 95, 98, 2000, XP, Me, NT 4.0. - there is no need for additional runtime libraries.
 + Supports creation of a single EXE to install your program for easy online distribution. Disk spanning is also supported.
 + Standard wizard interface, including support for the latest Windows 2000/XP wizard style.
@@ -15,9 +10,18 @@
 + very small
 + Supports password encrypted archives (with encrypted filennames)
 + Different language versions (english, german)
+- Fully multilingual, support for multiple languages in one installer. More than 35 translations are available.
+
+- Silent install and uninstall.
+- Multiple install configurations (usually Minimal, Typical, Full), and custom configuration
+- User selection of installation components, treeview for component selection
+
+
 + Customizable user interface (text, icons, images etc.)
+- Installer self-verification using a CRC32
 + Approximately 80-120k overhead over compressed data size for a full featured wizard
 + Ability to display a license agreement, text or ASCII style
+- Ability to detect destination directory from the registry, and let the user override (or not let them)
 + Installers can be as large as 2GB (theoretically -- when building on Win9x the limit seems to be around 500MB, however building on NT then installing on Win9x works with larger sizes)
 + Supports batch-file scripting for custom installations that include
   + File extraction (with configurable overwrite parameters)
@@ -26,26 +30,16 @@
   + Executable execution (shell execute and wait options)
   + Shortcut creation
   + Registry key setting/deleting
+  - Registry key reading/enumerating
   + INI file reading/writing
   + Generic text file reading/writing
-  ? Error checking
-  + Reboot support, including delete or rename on reboot
-  + User functions in script
-
-## Missing features
-
-- Installer self-verification using a CRC32
-- Ability to detect destination directory from the registry, and let the user override (or not let them)
-- Fully multilingual, support for multiple languages in one installer. More than 35 translations are available.
-- Silent install and uninstall.
-- Multiple install configurations (usually Minimal, Typical, Full), and custom configuration
-- User selection of installation components, treeview for component selection
-- Batch file scripting
-  - Registry key reading/enumerating
   - Powerful string and integer manipulation (only with W2k++)
   - Window finding based on class name or title
   - User interface manipulation (font/text setting)
   - Window message sending
   - User interaction with message boxes or custom pages
   - Branching, comparisons, etc.
+  ? Error checking
+  + Reboot support, including delete or rename on reboot
   - Installer behaviour commands (such as show/hide/wait/etc)
+  + User functions in script
