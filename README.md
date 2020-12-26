@@ -2,12 +2,7 @@
 
 An easy to use and highly customizable but compact installation library (formerly knwon as warez installer) which extracts files from an attached .rar archive an uses an customizable installation script to properly configure the installation.
 
-![Image1](eis_screen1.jpg)
-![Image2](eis_screen2.jpg)
-![Image3a](eis_screen3a.jpg)
-![Image3b](eis_screen3b.jpg)
-![Image4](eis_screen4.jpg)
-![Image5](eis_screen5.jpg)
+[See screenshots below](#screenshots)
 
 ## Implemented Features
 
@@ -57,3 +52,11 @@ An easy to use and highly customizable but compact installation library (formerl
   - User interaction with message boxes or custom pages
   - Branching, comparisons, etc.
   - Installer behaviour commands (such as show/hide/wait/etc)
+
+## Screenshots
+![Image1](eis_screen1.jpg)
+![Image2](eis_screen2.jpg)
+![Image3a](eis_screen3a.jpg)
+![Image3b](eis_screen3b.jpg)
+![Image4](eis_screen4.jpg)
+![Image5](eis_screen5.jpg)
